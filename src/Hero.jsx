@@ -27,7 +27,7 @@ export default class Hero extends React.Component {
 
                     </div>
                     <button className="get--img--btn"
-                     onClick={this.props.state.getRandomImage}
+                     onClick={this.props.getRandomImage}
                     >Get Image</button>
                 </form>
                 <div className="img-display-section">
