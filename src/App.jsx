@@ -44,7 +44,7 @@ class App extends React.Component {
     fetch("https://api.imgflip.com/get_memes")
        .then(res => res.json())
        .then(data => {
-        // console.log(data.data.memes)
+        
         this.setState(preState => {
           return {
             ...preState,
